@@ -98,6 +98,10 @@ body {
     margin-bottom: 10px;
 }
 
+.state__number--limit {
+    color: red;
+}
+
 .second-heading {
     font-size: 14px;
     text-transform: uppercase;
@@ -118,6 +122,8 @@ body {
     .container {
         width: 85vw;
         flex-direction: column;    
+        margin-top:15px;
+        transition: 0.2s;
     }
 
     .first-heading {
